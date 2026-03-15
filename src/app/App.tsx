@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Analytics } from "@vercel/analytics/react";
+import { Analytics } from "@vercel/analytics/next"
 import { useLocation } from "react-router-dom";
 import { PaperTrailSprintProvider } from "@/features/paperTrailSprint/hooks/usePaperTrailSprint";
 import { AppRoutes } from "@/app/routes";
